@@ -1,0 +1,34 @@
+body{
+    background-color:#ad9450;
+    color: black;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: goldenrod;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 80%;
+ }
+
+ .passo { 
+    display: none;
+ }
+.passo.ativo {
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 100%;
+}
